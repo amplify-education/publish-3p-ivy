@@ -10,5 +10,17 @@
     <property file="build.properties" />
     <import file="base/build.xml" />
 
+    <!-- clean out un-needed targets -->
+    <target name="compile-src"/>
+    <target name="compile-tests"/>
+    <target name="unittest"/>
+    <target name="create-classes-jar"/>
+    <target name="prepare-web-assets-for-zip"/>
+    <target name="clean-ivy"/>
+    <target name="clean-java"/>
+    <target name="clean-web-assets"/>
+    <target name="zip-web-assets"/>
+    <target name="init-web-assets"/>
+    <target name="init-java"/>
 </project>
 
