@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project name="amp build script" basedir="." xmlns:ivy="antlib:org.apache.ivy.ant">
+
+    <!-- ant-contrib, for the foreach task, among others -->
+    <taskdef resource="net/sf/antcontrib/antlib.xml" />
+
+    <!-- moved a list of properties out to a config file -->
+    <property file="local.build.properties" />
+    <property file="build.properties" />
+    <import file="base/build.xml" />
+
+</project>
+
