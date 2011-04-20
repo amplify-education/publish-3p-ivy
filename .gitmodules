@@ -1,6 +1,6 @@
 [submodule "webapp-build"]
 	path = webapp-build
-	url = git://dmc120.mc.wgenhq.net/mclass/webapp-build
+	url = git://mcgit.mc.wgenhq.net/mclass/webapp-build
 [submodule "base"]
 	path = base
-	url = git://dmc120.mc.wgenhq.net/mclass/webapp-build
+	url = git://mcgit.mc.wgenhq.net/mclass/webapp-build
