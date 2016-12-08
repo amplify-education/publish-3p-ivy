@@ -1,6 +1,6 @@
 [submodule "webapp-build"]
 	path = webapp-build
-	url = git://mcgit.mc.wgenhq.net/mclass/webapp-build
+	url = ssh://git@github.com/amplifylitco/webapp-build.git
 [submodule "base"]
 	path = base
-	url = git://mcgit.mc.wgenhq.net/mclass/webapp-build
+	url = ssh://git@github.com/amplifylitco/webapp-build.git
