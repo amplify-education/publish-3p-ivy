@@ -1,3 +1,4 @@
 .ivy2
-build
-ivy.xml
+ivysettings.xml
+build/artifacts/ivy.xml
+build/ivy-report
