@@ -9,6 +9,6 @@ Use this bare bones project to publish third-party dependencies to our internal 
 3. Modify [ivy.xml](https://github.com/amplifylitco/publish-3p-ivy/blob/master/ivy.xml)
  1. Change the values for the **organization** and **module** attributes of the \<info\> element to match those that you entered as parameters to the **create-ivy-project** Jenkins job.
  2. Change the **version** attribute value of the \<info\> element as needed.
- 3. Change the **artifact** name to that of your artifact filename (without the extension). **NOTE:** if your artifact has a version number in the filename (e.g. "-2.0" in javax.ws.rs-api-2.0.jar), it must be removed (ivy will automatically be appending the version to the artifact name upon publish)
+ 3. Change the **artifact** name to that of your artifact filename (without the extension). **NOTE:** if your artifact has a version number in the filename (e.g. "-2.0" in javax.ws.rs-api-2.0.jar), rename the file such that it doesn't contain the version (ivy will automatically be appending the version to the artifact name upon publish)
 4. Commit and push your changes
 5. Run the [publish-3p-ivy](https://shared-jenkins.mc.wgenhq.net/jenkins/job/publish-3p-ivy/) Jenkins job
