@@ -3,7 +3,7 @@
     <info organisation="javax" module="javax-ws-rs-api" revision="2.0" />
     
     <publications>
-        <artifact name="javax.ws.rs-api"/>
+        <artifact name="javax-ws-rs-api"/>
     </publications>
     <dependencies>
     </dependencies>
